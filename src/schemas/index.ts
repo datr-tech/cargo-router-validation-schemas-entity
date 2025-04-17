@@ -1,0 +1,111 @@
+import endpointValidationSchemaCreateEndpointJson from './endpointValidationSchemaCreateEndpoint.json';
+
+import endpointValidationSchemaUpdateEndpointJson from './endpointValidationSchemaUpdateEndpoint.json';
+
+import endpointValidationSchemaReadEndpointJson from './endpointValidationSchemaReadEndpoint.json';
+
+import endpointValidationSchemaDeleteEndpointJson from './endpointValidationSchemaDeleteEndpoint.json';
+
+import endpointTypeValidationSchemaCreateEndpointTypeJson from './endpointTypeValidationSchemaCreateEndpointType.json';
+
+import endpointTypeValidationSchemaUpdateEndpointTypeJson from './endpointTypeValidationSchemaUpdateEndpointType.json';
+
+import endpointTypeValidationSchemaReadEndpointTypeJson from './endpointTypeValidationSchemaReadEndpointType.json';
+
+import endpointTypeValidationSchemaDeleteEndpointTypeJson from './endpointTypeValidationSchemaDeleteEndpointType.json';
+
+import frameworkValidationSchemaCreateFrameworkJson from './frameworkValidationSchemaCreateFramework.json';
+
+import frameworkValidationSchemaUpdateFrameworkJson from './frameworkValidationSchemaUpdateFramework.json';
+
+import frameworkValidationSchemaReadFrameworkJson from './frameworkValidationSchemaReadFramework.json';
+
+import frameworkValidationSchemaDeleteFrameworkJson from './frameworkValidationSchemaDeleteFramework.json';
+
+import frameworkTypeValidationSchemaCreateFrameworkTypeJson from './frameworkTypeValidationSchemaCreateFrameworkType.json';
+
+import frameworkTypeValidationSchemaUpdateFrameworkTypeJson from './frameworkTypeValidationSchemaUpdateFrameworkType.json';
+
+import frameworkTypeValidationSchemaReadFrameworkTypeJson from './frameworkTypeValidationSchemaReadFrameworkType.json';
+
+import frameworkTypeValidationSchemaDeleteFrameworkTypeJson from './frameworkTypeValidationSchemaDeleteFrameworkType.json';
+
+import resourceValidationSchemaCreateResourceJson from './resourceValidationSchemaCreateResource.json';
+
+import resourceValidationSchemaUpdateResourceJson from './resourceValidationSchemaUpdateResource.json';
+
+import resourceValidationSchemaReadResourceJson from './resourceValidationSchemaReadResource.json';
+
+import resourceValidationSchemaDeleteResourceJson from './resourceValidationSchemaDeleteResource.json';
+
+import resourceTypeValidationSchemaCreateResourceTypeJson from './resourceTypeValidationSchemaCreateResourceType.json';
+
+import resourceTypeValidationSchemaUpdateResourceTypeJson from './resourceTypeValidationSchemaUpdateResourceType.json';
+
+import resourceTypeValidationSchemaReadResourceTypeJson from './resourceTypeValidationSchemaReadResourceType.json';
+
+import resourceTypeValidationSchemaDeleteResourceTypeJson from './resourceTypeValidationSchemaDeleteResourceType.json';
+
+import serviceValidationSchemaCreateServiceJson from './serviceValidationSchemaCreateService.json';
+
+import serviceValidationSchemaUpdateServiceJson from './serviceValidationSchemaUpdateService.json';
+
+import serviceValidationSchemaReadServiceJson from './serviceValidationSchemaReadService.json';
+
+import serviceValidationSchemaDeleteServiceJson from './serviceValidationSchemaDeleteService.json';
+
+export const endpointValidationSchemaCreateEndpoint = endpointValidationSchemaCreateEndpointJson;
+
+export const endpointValidationSchemaUpdateEndpoint = endpointValidationSchemaUpdateEndpointJson;
+
+export const endpointValidationSchemaReadEndpoint = endpointValidationSchemaReadEndpointJson;
+
+export const endpointValidationSchemaDeleteEndpoint = endpointValidationSchemaDeleteEndpointJson;
+
+export const endpointTypeValidationSchemaCreateEndpointType = endpointTypeValidationSchemaCreateEndpointTypeJson;
+
+export const endpointTypeValidationSchemaUpdateEndpointType = endpointTypeValidationSchemaUpdateEndpointTypeJson;
+
+export const endpointTypeValidationSchemaReadEndpointType = endpointTypeValidationSchemaReadEndpointTypeJson;
+
+export const endpointTypeValidationSchemaDeleteEndpointType = endpointTypeValidationSchemaDeleteEndpointTypeJson;
+
+export const frameworkValidationSchemaCreateFramework = frameworkValidationSchemaCreateFrameworkJson;
+
+export const frameworkValidationSchemaUpdateFramework = frameworkValidationSchemaUpdateFrameworkJson;
+
+export const frameworkValidationSchemaReadFramework = frameworkValidationSchemaReadFrameworkJson;
+
+export const frameworkValidationSchemaDeleteFramework = frameworkValidationSchemaDeleteFrameworkJson;
+
+export const frameworkTypeValidationSchemaCreateFrameworkType = frameworkTypeValidationSchemaCreateFrameworkTypeJson;
+
+export const frameworkTypeValidationSchemaUpdateFrameworkType = frameworkTypeValidationSchemaUpdateFrameworkTypeJson;
+
+export const frameworkTypeValidationSchemaReadFrameworkType = frameworkTypeValidationSchemaReadFrameworkTypeJson;
+
+export const frameworkTypeValidationSchemaDeleteFrameworkType = frameworkTypeValidationSchemaDeleteFrameworkTypeJson;
+
+export const resourceValidationSchemaCreateResource = resourceValidationSchemaCreateResourceJson;
+
+export const resourceValidationSchemaUpdateResource = resourceValidationSchemaUpdateResourceJson;
+
+export const resourceValidationSchemaReadResource = resourceValidationSchemaReadResourceJson;
+
+export const resourceValidationSchemaDeleteResource = resourceValidationSchemaDeleteResourceJson;
+
+export const resourceTypeValidationSchemaCreateResourceType = resourceTypeValidationSchemaCreateResourceTypeJson;
+
+export const resourceTypeValidationSchemaUpdateResourceType = resourceTypeValidationSchemaUpdateResourceTypeJson;
+
+export const resourceTypeValidationSchemaReadResourceType = resourceTypeValidationSchemaReadResourceTypeJson;
+
+export const resourceTypeValidationSchemaDeleteResourceType = resourceTypeValidationSchemaDeleteResourceTypeJson;
+
+export const serviceValidationSchemaCreateService = serviceValidationSchemaCreateServiceJson;
+
+export const serviceValidationSchemaUpdateService = serviceValidationSchemaUpdateServiceJson;
+
+export const serviceValidationSchemaReadService = serviceValidationSchemaReadServiceJson;
+
+export const serviceValidationSchemaDeleteService = serviceValidationSchemaDeleteServiceJson;

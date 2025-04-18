@@ -1,14 +1,31 @@
 {
-  "resourceId": { "in": "params", "isMongoId": true, "notEmpty": true },
-  "endpointId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } },
-  "resourceTypeId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } },
-  "serviceId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } },
+  "adminStatusId": {
+    "default": "undefined",
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "optional": { "values": "undefined" }
+  },
+  "adminUserId": {
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "default": "undefined",
+    "optional": { "values": "undefined" }
+  },
   "description": {
     "default": "undefined",
     "in": "body",
     "isString": true,
     "isLength": { "options": { "min": 1, "max": 200 } },
     "notEmpty": false,
+    "optional": { "values": "undefined" }
+  },
+  "endpointId": {
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "default": "undefined",
     "optional": { "values": "undefined" }
   },
   "name": {
@@ -19,6 +36,19 @@
     "default": "undefined",
     "optional": { "values": "undefined" }
   },
-  "adminStatusId": { "default": "undefined", "in": "body", "isMongoId": true, "notEmpty": false, "optional": { "values": "undefined" } },
-  "adminUserId": { "in": "body", "isMongoId": true, "notEmpty": false, "default": "undefined", "optional": { "values": "undefined" } }
+  "resourceId": { "in": "params", "isMongoId": true, "notEmpty": true },
+  "resourceTypeId": {
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "default": "undefined",
+    "optional": { "values": "undefined" }
+  },
+  "serviceId": {
+    "in": "body",
+    "isMongoId": true,
+    "notEmpty": false,
+    "default": "undefined",
+    "optional": { "values": "undefined" }
+  }
 }

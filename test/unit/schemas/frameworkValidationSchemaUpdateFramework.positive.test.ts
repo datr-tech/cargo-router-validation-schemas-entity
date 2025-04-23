@@ -1,0 +1,51 @@
+import { frameworkValidationSchemaUpdateFramework } from '@app-crvse/schemas';
+
+describe('frameworkValidationSchemaUpdateFramework', () => {
+  describe('positive', () => {
+    test('should contain the expected schema', () => {
+      const expectedSchema = {
+        adminStatusId: {
+          default: 'undefined',
+          in: 'body',
+          isMongoId: true,
+          notEmpty: false,
+          optional: { values: 'undefined' },
+        },
+        adminUserId: {
+          in: 'body',
+          isMongoId: true,
+          notEmpty: false,
+          default: 'undefined',
+          optional: { values: 'undefined' },
+        },
+        description: {
+          default: 'undefined',
+          in: 'body',
+          isString: true,
+          isLength: { options: { min: 1, max: 200 } },
+          notEmpty: false,
+          optional: { values: 'undefined' },
+        },
+        frameworkId: { in: 'params', isMongoId: true, notEmpty: true },
+        frameworkTypeId: {
+          in: 'body',
+          isMongoId: true,
+          notEmpty: false,
+          default: 'undefined',
+          optional: { values: 'undefined' },
+        },
+        name: {
+          in: 'body',
+          isString: true,
+          isLength: { options: { min: 8, max: 100 } },
+          notEmpty: false,
+          default: 'undefined',
+          optional: { values: 'undefined' },
+        },
+      };
+
+      const foundSchema = { ...frameworkValidationSchemaUpdateFramework };
+      expect(foundSchema).toStrictEqual(expectedSchema);
+    });
+  });
+});
